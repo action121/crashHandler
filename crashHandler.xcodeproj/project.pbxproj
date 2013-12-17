@@ -13,14 +13,14 @@
 		5E642520182893FF006BF6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E64251E182893FF006BF6BB /* InfoPlist.strings */; };
 		5E642522182893FF006BF6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E642521182893FF006BF6BB /* main.m */; };
 		5E642526182893FF006BF6BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E642525182893FF006BF6BB /* AppDelegate.m */; };
-		5E642529182893FF006BF6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E642527182893FF006BF6BB /* Main.storyboard */; };
-		5E64252C182893FF006BF6BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E64252B182893FF006BF6BB /* ViewController.m */; };
-		5E64252E182893FF006BF6BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E64252D182893FF006BF6BB /* Images.xcassets */; };
-		5E642534182893FF006BF6BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E642533182893FF006BF6BB /* XCTest.framework */; };
 		5E642535182893FF006BF6BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E642515182893FF006BF6BB /* Foundation.framework */; };
 		5E642536182893FF006BF6BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E642519182893FF006BF6BB /* UIKit.framework */; };
-		5E64253E182893FF006BF6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E64253C182893FF006BF6BB /* InfoPlist.strings */; };
-		5E642540182893FF006BF6BB /* crashHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E64253F182893FF006BF6BB /* crashHandlerTests.m */; };
+		5E64254B1828941B006BF6BB /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E64254A1828941B006BF6BB /* UncaughtExceptionHandler.m */; };
+		5E64254F18289473006BF6BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E64254D18289473006BF6BB /* ViewController.m */; };
+		5E64255018289473006BF6BB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E64254E18289473006BF6BB /* ViewController.xib */; };
+		5E64255418289C07006BF6BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E64255118289C07006BF6BB /* Default-568h@2x.png */; };
+		5E64255518289C07006BF6BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E64255218289C07006BF6BB /* Default.png */; };
+		5E64255618289C07006BF6BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E64255318289C07006BF6BB /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		5E642523182893FF006BF6BB /* crashHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crashHandler-Prefix.pch"; sourceTree = "<group>"; };
 		5E642524182893FF006BF6BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E642525182893FF006BF6BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E642528182893FF006BF6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E64252A182893FF006BF6BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5E64252B182893FF006BF6BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5E64252D182893FF006BF6BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5E642533182893FF006BF6BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5E64253B182893FF006BF6BB /* crashHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "crashHandlerTests-Info.plist"; sourceTree = "<group>"; };
-		5E64253D182893FF006BF6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E64253F182893FF006BF6BB /* crashHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crashHandlerTests.m; sourceTree = "<group>"; };
+		5E6425491828941B006BF6BB /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		5E64254A1828941B006BF6BB /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		5E64254C18289473006BF6BB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E64254D18289473006BF6BB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E64254E18289473006BF6BB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5E64255118289C07006BF6BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E64255218289C07006BF6BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E64255318289C07006BF6BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E642534182893FF006BF6BB /* XCTest.framework in Frameworks */,
 				5E642536182893FF006BF6BB /* UIKit.framework in Frameworks */,
 				5E642535182893FF006BF6BB /* Foundation.framework in Frameworks */,
 			);
@@ -82,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				5E64251B182893FF006BF6BB /* crashHandler */,
-				5E642539182893FF006BF6BB /* crashHandlerTests */,
 				5E642514182893FF006BF6BB /* Frameworks */,
 				5E642513182893FF006BF6BB /* Products */,
 			);
@@ -102,7 +100,6 @@
 				5E642515182893FF006BF6BB /* Foundation.framework */,
 				5E642517182893FF006BF6BB /* CoreGraphics.framework */,
 				5E642519182893FF006BF6BB /* UIKit.framework */,
-				5E642533182893FF006BF6BB /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,13 +107,14 @@
 		5E64251B182893FF006BF6BB /* crashHandler */ = {
 			isa = PBXGroup;
 			children = (
+				5E6425491828941B006BF6BB /* UncaughtExceptionHandler.h */,
+				5E64254A1828941B006BF6BB /* UncaughtExceptionHandler.m */,
 				5E642524182893FF006BF6BB /* AppDelegate.h */,
 				5E642525182893FF006BF6BB /* AppDelegate.m */,
-				5E642527182893FF006BF6BB /* Main.storyboard */,
-				5E64252A182893FF006BF6BB /* ViewController.h */,
-				5E64252B182893FF006BF6BB /* ViewController.m */,
-				5E64252D182893FF006BF6BB /* Images.xcassets */,
 				5E64251C182893FF006BF6BB /* Supporting Files */,
+				5E64254C18289473006BF6BB /* ViewController.h */,
+				5E64254D18289473006BF6BB /* ViewController.m */,
+				5E64254E18289473006BF6BB /* ViewController.xib */,
 			);
 			path = crashHandler;
 			sourceTree = "<group>";
@@ -124,28 +122,13 @@
 		5E64251C182893FF006BF6BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E64255118289C07006BF6BB /* Default-568h@2x.png */,
+				5E64255218289C07006BF6BB /* Default.png */,
+				5E64255318289C07006BF6BB /* Default@2x.png */,
 				5E64251D182893FF006BF6BB /* crashHandler-Info.plist */,
 				5E64251E182893FF006BF6BB /* InfoPlist.strings */,
 				5E642521182893FF006BF6BB /* main.m */,
 				5E642523182893FF006BF6BB /* crashHandler-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5E642539182893FF006BF6BB /* crashHandlerTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E64253F182893FF006BF6BB /* crashHandlerTests.m */,
-				5E64253A182893FF006BF6BB /* Supporting Files */,
-			);
-			path = crashHandlerTests;
-			sourceTree = "<group>";
-		};
-		5E64253A182893FF006BF6BB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E64253B182893FF006BF6BB /* crashHandlerTests-Info.plist */,
-				5E64253C182893FF006BF6BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,9 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E64252E182893FF006BF6BB /* Images.xcassets in Resources */,
+				5E64255018289473006BF6BB /* ViewController.xib in Resources */,
 				5E642520182893FF006BF6BB /* InfoPlist.strings in Resources */,
-				5E642529182893FF006BF6BB /* Main.storyboard in Resources */,
+				5E64255618289C07006BF6BB /* Default@2x.png in Resources */,
+				5E64255418289C07006BF6BB /* Default-568h@2x.png in Resources */,
+				5E64255518289C07006BF6BB /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E64253E182893FF006BF6BB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E64252C182893FF006BF6BB /* ViewController.m in Sources */,
+				5E64254B1828941B006BF6BB /* UncaughtExceptionHandler.m in Sources */,
 				5E642526182893FF006BF6BB /* AppDelegate.m in Sources */,
+				5E64254F18289473006BF6BB /* ViewController.m in Sources */,
 				5E642522182893FF006BF6BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E642540182893FF006BF6BB /* crashHandlerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,22 +259,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E64251F182893FF006BF6BB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5E642527182893FF006BF6BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E642528182893FF006BF6BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5E64253C182893FF006BF6BB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E64253D182893FF006BF6BB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -378,6 +346,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "crashHandler/crashHandler-Prefix.pch";
 				INFOPLIST_FILE = "crashHandler/crashHandler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +360,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "crashHandler/crashHandler-Prefix.pch";
 				INFOPLIST_FILE = "crashHandler/crashHandler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

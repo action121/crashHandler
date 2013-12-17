@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+- (id)initWithAttractId:(NSInteger)idc attractData:(NSMutableDictionary *)attractData ;
 @end

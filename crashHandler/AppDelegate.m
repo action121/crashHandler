@@ -7,12 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "UncaughtExceptionHandler.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [UncaughtExceptionHandler registerHandler];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UIViewController* rootVC = [[ViewController alloc] initWithAttractId:0 attractData:nil];
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
